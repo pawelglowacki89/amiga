@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>AMIGA</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	
+	</head>
+	
+	<nav class="navbar navbar-fixed navbar-default">
+		<div class="navbar-header">
+			<a href="#" class="navbar-brand">COMPANY</a>
+			<div class="row">
+				<ul class="nav navbar-nav">
+					<li><a href="#history">About</a></li>
+					<li><a href="#games" class="visible-lg">Games</a></li>
+					<li><a href="#gallery">Gallery</a></li>
+					<li><a href="#footer">Contact</a></li>
+				</ul>
+			</div>
+	</nav>
+	
+	<body>
+		<section class="jumbotron">
+			<img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Amiga_Logo_1985.svg/1280px-Amiga_Logo_1985.svg.png" class="img-responsive">
+		</section>
+		
+		<section class="modal-btn">
+			<!-- Button trigger modal -->
+			<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+			 Informacje
+			</button>
+		</section>
+
+		<!-- Modal -->
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			 <div class="modal-dialog" role="document">
+    			<div class="modal-content">
+      				<div class="modal-header">
+    					 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        				<h4 class="modal-title" id="myModalLabel">O stronie</h4>
+      				</div>
+      				<div class="modal-body">
+    				  Strona poświęcona komputerom Amiga
+    					<ul>
+    						<li>Informacje o sprzęcie</li>
+    						<li>Kilka ciekawych gier</li>
+    					</ul>
+    				</div>
+      				<div class="modal-footer">
+						&copy Paweł Głowacki
+      				</div>
+    			</div>
+  			</div>
+		</div>
+	
+		<a name="history"></a>
+		<section class="history container">
+			<h1 class="col-lg-12">About Amiga</h1>
+				<div class="panel-group container" id="accordion" role="tablist" aria-multiselectable="true">
+  					<div class="panel panel-default">
+						 <div class="panel-heading" role="tab" id="headingOne">
+      							<h4 class="panel-title">
+    								 <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Amiga 500</a>
+      							</h4>
+    					</div>
+    					<div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+      						<div class="panel-body">
+			Pierwszym modelem Amigi, wprowadzonym do sprzedaży w lipcu 1985 była Amiga 1000 z procesorem MC68000 7,14 MHz firmy Motorola i chipsetem OCS.
+			Dwa lata później pojawiły się dwa modele – Amiga 500 i Amiga 2000, obydwa konstrukcyjnie bardzo podobne do A1000. Różniły się jedynie możliwościami rozbudowy.
+			<mark>Amiga 500</mark> była komputerem domowym, z jednostką centralną zintegrowaną w płaskiej obudowie z klawiaturą i napędem dyskietek. Brak było kontrolera dysku twardego, choć istniały zewnętrzne urządzenia tego typu. Możliwości rozbudowy z przyczyn czysto objętościowych były mniejsze niż w poprzednich modelach (choć i tak duże). Pierwsze serie obu tych komputerów były wyposażone w chipset OCS (tzw. Original chipset). Wersja Amiga 500+ charakteryzowała się nowszym oprogramowaniem ROM i większą ilością pamięci RAM oraz chipsetem ECS (Enhanced chipset).
+      						</div>
+      					</div>
+      				</div>
+  					<div class="panel panel-default">
+    					<div class="panel-heading" role="tab" id="headingTwo">
+    						<h4 class="panel-title">
+        						<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Amiga 2000</a>
+      						</h4>
+    					</div>
+    					<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+      						<div class="panel-body">
+			<mark>Amiga 2000</mark> była komputerem profesjonalnym, z dużymi możliwościami późniejszej rozbudowy. Oferowana była w kilku wariantach: Amiga 2500 (z procesorem MC68020 i dyskiem twardym), A2000HD (z dyskiem SCSI), A2000UX (działająca pod kontrolą systemu Unix, dokładniej SVR4).
+  							</div>
+    					</div>
+    				</div>
+  					<div class="panel panel-default">
+						<div class="panel-heading" role="tab" id="headingThree">
+      						<h4 class="panel-title">
+        						<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Amiga 3000</a>
+        					</h4>
+    					</div>
+    					<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+      						<div class="panel-body">
+			Rozwinięciem modelu Amiga 2000 była <mark>Amiga 3000</mark> (1990) – pierwszy 32-bitowy model Amigi. Wyposażona była w procesor MC68030 (16 lub 25 MHz) i chipset ECS. Istniała wersja UX pracująca pod kontrolą SVR4 (patrz: Unix). Chipset ECS oraz firmowo zamontowany flicker-fixer oraz firmowo zamontowany kontroler SCSI, możliwość dokupienia kontrolera DMA. Kickstart 2.0, aktualizowany potem do 2.04, elegancka obudowa desktop. W niektórych starszych modelach A3000 instalowano kości ROM zawierające wewnętrzną wersję 'alfa' AmigaOS 2.0 – tzw. Kickstart 1.4, przy czym fakt pozostawał ukryty ze względu na to iż w tym modelu Kickstart można było 'remapować' (podmieniać) z obrazu zapisanego na dysku twardym lub specjalnie spreparowanej dyskietce (tzw. SuperKickstartDisk). Kickstart do Amigi 3000 można było sprzętowo rozszerzyć do wersji 3.1.
+			  				</div>
+    					</div>
+    				</div>
+  					<div class="panel panel-default">
+    					<div class="panel-heading" role="tab" id="headingFour">
+      						<h4 class="panel-title">
+        						<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Amiga CDTV</a>
+      						</h4>
+    					</div>
+    					<div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+    						<div class="panel-body">
+			W 1991 roku rozpoczęto sprzedaż modelu z wbudowanym napędem CD – o nazwie <mark>Amiga CDTV</mark>. Z różnych powodów, model ten nie został dobrze przyjęty przez klientów – zawierał Kickstart 1.3 i brak mu było wbudowanej stacji dyskietek. Niemniej jednak jest jednym z niewielu takich rozwiązań w dziedzinie komputerów osobistych. Amiga CDTV z wyglądu bardzo przypominała magnetowid lub odtwarzacz CD.
+							</div>
+    					</div>
+    				</div>
+  					<div class="panel panel-default">
+    					<div class="panel-heading" role="tab" id="headingFive">
+      						<h4 class="panel-title">
+    							<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">Amiga 600</a>
+    						</h4>
+    					</div>
+    					<div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+      						<div class="panel-body">
+			Następnym krokiem (1992) był komputer <mark>Amiga 600</mark> – najmniejszy model Amigi, pozbawiony bloku numerycznego klawiatury. Chociaż minęło 7 lat od premiery modelu A1000, nadal posiadał on procesor 68000 (7,14 MHz). Zmiany które wprowadzono względem starszych modeli to nowy chipset ECS, kontroler dysku twardego, miejsce na dysk 2,5" (w A600HD montowany fabrycznie), nowy Kickstart 2.05 (w wersji 37.299 oraz 37.300 zawierający błędy – wyeliminowane dopiero w wersji 37.350), wbudowany modulator TV oraz złącze PCMCIA.
+			  				</div>
+						</div>
+					</div>
+  					<div class="panel panel-default">
+    					<div class="panel-heading" role="tab" id="headingSix">
+      						<h4 class="panel-title">
+    							<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">Amiga 1200</a>
+    						</h4>
+    					</div>
+    					<div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
+      						<div class="panel-body">
+			Kolejnym modelem była <mark>Amiga 1200</mark> z roku 1992 – następczyni modelu A500. Posiadała 32-bitowy procesor MC68EC020 (tańsza wersja MC68020 z 24-bitową szyną adresową oraz nie posiadająca pięciu sygnałów w porównaniu do pełnej wersji)[2], taktowany zegarem 14,28 MHz, nowoczesne kości grafiki AGA, pamięć CHIP rozszerzoną do 2MB. Tak jak A600 posiada kontroler dysku twardego IDE, modulator TV oraz złącze PCMCIA. Do tej pory model 1200 jest najpopularniejszy ze względu na ogromne możliwości rozbudowy (choć pomyślany był jako model przejściowy, właściwie nie do rozbudowy). Powstało bardzo wiele urządzeń, a wśród najważniejszych znajdują się sloty PCI 2.1, karty z dwoma procesorami (MC68040/MC68060 + PowerPC 603e od 160 do 240 MHz), karty graficzne.
+			  				</div>
+    					</div>
+    				</div>
+  					<div class="panel panel-default">
+    					<div class="panel-heading" role="tab" id="headingSeven">
+      						<h4 class="panel-title">
+        						<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">Amiga CD32</a>
+    						</h4>
+    					</div>
+    					<div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeven">
+      						<div class="panel-body">
+			Warto także wspomnieć o modelu zwanym <mark>Amiga CD32</mark>. Była to pierwsza na świecie 32-bitowa konsola do gier posiadająca wbudowany czytnik CD. Jeżeli chodzi o możliwości i charakterystykę sprzętową, to praktycznie nie różniła się ona pod tym względem od A1200. Można było do niej podłączyć klawiaturę, stację dyskietek, czy inne akcesoria przez co stawała się pełnowartościowym komputerem. Przypuszczano, że gdyby Commodore nadążyło z produkcją CD32, firma uniknęłaby bankructwa. Pomysł konsoli z napędem CD podłączanej pod domowy telewizor, zauważyła natomiast firma Sony która 3 grudnia 1994 roku zaprezentowała swój produkt pod nazwą PlayStation, który przyniósł firmie ogromny sukces.
+			  				</div>
+    					</div>
+    				</div>
+  					<div class="panel panel-default">
+    					<div class="panel-heading" role="tab" id="headingEight">
+      						<h4 class="panel-title">
+        						<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight">Amiga 4000</a>
+    						</h4>
+    					</div>
+    					<div id="collapseEight" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingEight">
+      						<div class="panel-body">
+			<mark>Amiga 4000</mark> była rozszerzeniem A3000 z kośćmi AGA, posiadała procesor MC68030 lub MC68040. Kontroler SCSI zamieniono na IDE. Nadal nie użyto 16-bitowych układów dźwiękowych, a flicker-fixera usunięto. Kolejnym modelem była A4000T (tower) o podobnej konfiguracji. Posiadała zarówno kontroler IDE, jak i SCSI.
+			  				</div>
+    					</div>
+  					</div>
+  				</div>
+  			</div>
+		</section>
+		
+		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  			<ol class="carousel-indicators">
+    			<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    			<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    			<li data-target="#carousel-example-generic" data-slide-to="3"></li>
+    			<li data-target="#carousel-example-generic" data-slide-to="4"></li>
+    			<li data-target="#carousel-example-generic" data-slide-to="5"></li>
+    			<li data-target="#carousel-example-generic" data-slide-to="6"></li>
+    			<li data-target="#carousel-example-generic" data-slide-to="7"></li>
+  			</ol>
+
+  <!-- Wrapper for slides -->
+  			<div class="carousel-inner" role="listbox">
+    			<div class="item active">
+      				<img src="http://www.fitzstevesamigaworld.co.uk/wp-content/uploads/2013/12/Amiga500_system1.jpg" class="container img-responsive" alt="amiga 500">
+    				<div class="carousel-caption">
+        				<h3>Amiga 500</h3>
+      				</div>
+    			</div>
+    			<div class="item">
+      				<img src="http://www.amigaeu.com/pics/Amiga2000.jpg" class="container img-responsive" alt="amiga 2000">
+      				<div class="carousel-caption">
+        				<h3>Amiga 2000</h3>
+      				</div>
+    			</div>
+     			<div class="item">
+      				<img src="http://pre10.deviantart.net/696c/th/pre/f/2014/079/e/3/commodore_amiga_3000_photo_ad_remake_in_3d_by_zgodzinski-d7ax8y2.jpg" class="container img-responsive" alt="amiga 3000">
+      				<div class="carousel-caption">
+        				<h3>Amiga 3000</h3>
+      				</div>
+    			</div>
+     			<div class="item">
+    				<img src="http://pre06.deviantart.net/2fff/th/pre/f/2014/079/1/9/the_complete_commodore_cdtv_set__front_view_by_zgodzinski-d7ax92o.jpg" class="container img-responsive" alt="amiga cdtv">
+      				<div class="carousel-caption">
+        				<h3>Amiga CDTV</h3>
+      				</div>
+    			</div>
+     			<div class="item">
+      				<img src="http://pre04.deviantart.net/b95b/th/pre/f/2014/120/c/d/commodore_amiga_600_ad_remake_in_3d__1992__by_zgodzinski-d7gjxj9.jpg" class="container img-responsive" alt="amiga 600">
+      				<div class="carousel-caption">
+        				<h3>Amiga 600</h3>
+      				</div>
+    			</div>
+     			<div class="item">
+      				<img src="http://pre04.deviantart.net/b888/th/pre/f/2014/079/2/0/commodore_amiga_1200_photo_ad_remake_no_2_in_3d_by_zgodzinski-d7ax9bb.jpg" class="container img-responsive" alt="amiga 1200">
+      				<div class="carousel-caption">
+        				<h3>Amiga 1200</h3>
+      				</div>
+    			</div>
+     			<div class="item">
+      				<img src="http://pre08.deviantart.net/8909/th/pre/f/2014/079/0/c/commodore_amiga_cd32_product_shot_recreated_in_3d_by_zgodzinski-d7ax8sj.jpg" class="container img-responsive" alt="amiga cd32">
+      				<div class="carousel-caption">
+        				<h3>Amiga CD32</h3>
+      				</div>
+    			</div>
+     			<div class="item">
+      				<img src="http://pre14.deviantart.net/07b0/th/pre/f/2014/136/a/d/commodore_amiga_4000_in_3d__c__deutschland_ad__by_zgodzinski-d7il8gl.jpg" class="container img-responsive" alt="amiga 4000">
+      				<div class="carousel-caption">
+    					 <h3>Amiga 4000</h3>
+      				</div>
+    			</div>
+  			</div>
+
+  <!-- Controls -->
+  			<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    			<span class="sr-only">Previous</span>
+  			</a>
+  			<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    			<span class="sr-only">Next</span>
+  			</a>
+		</div>
+		
+		<section class="games container visible-lg">
+		<a name="games"></a>
+			<h1>Amiga Games Online</h1>
+			<div class="row">
+				<div class="col-lg-3">
+					<a href="http://game-oldies.com/play-online/lotus-turbo-challenge-2-commodore-amiga#" target="blank"><img src="http://www.lemonamiga.com/games/screenshots/full/lotus_turbo_challenge_2_01.png" class="img-responsive"></a>
+				</div>
+				<div class="col-lg-3">
+					<a href="http://game-oldies.com/play-online/rick-dangerous-commodore-amiga" target="blank"><img src="http://www.lemonamiga.com/games/screenshots/full/rick_dangerous_01.png" class="img-responsive"></a>
+				</div>
+				<div class="col-lg-3">
+					<a href="http://game-oldies.com/play-online/silkworm-commodore-amiga" target="blank"><img src="http://www.lemonamiga.com/games/screenshots/full/silk_worm_01.png" class="img-responsive"></a>
+				</div>
+				<div class="col-lg-3">
+					<a href="http://game-oldies.com/play-online/turrican-commodore-amiga" target="blank" ><img src="http://www.lemonamiga.com/games/screenshots/full/turrican_01.png" class="img-responsive"></a>
+				</div>
+			</div>
+			<h3>More Games At <a href="http://game-oldies.com">Game Oldies</a></h3>
+		</section>
+				
+		<section class="gallery">
+		<a name="gallery"></a>
+			<h1 class="col-lg-12">Amiga Games Gallery</h1>
+			
+				<div class="container">
+				
+					<section class="modal-btn">
+					<!-- Button trigger modal -->
+						<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#fire">
+							<img src="http://www.stare-gry.cba.pl/amiga/fire_force.jpg" title="FIRE FORCE" class="img-responsive img-thumbnail">
+						</button>
+					</section>
+					<div class="modal fade" id="fire" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			 			<div class="modal-dialog" role="document">
+    						<div class="modal-content">
+      							<div class="modal-header">
+    					 			<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        				 			<h4 class="modal-title" id="myModalLabel">Fire Force</h4>
+      							</div>
+      							<div class="modal-body">
+    				  				<img src="http://www.stare-gry.cba.pl/amiga/fire_force.jpg" title="FIRE FORCE" class="img-responsive">	
+    							</div>
+      							<div class="modal-footer">
+						Fire Force to strzelanka inna niż wszystkie. Jej inność polega na wyższym poziomie realizmu - o ile można tak powiedzieć. Przede wszystkim nie ma czegoś takiego jak życia - jak zginiesz, to koniec. Poza tym dostępne są prawdziwe bronie, a nie żadne lasery itp. Do wypełnienia jest dwanaście misji, które do najprostszych nie należą. Po każdej misji otrzymujemy jakieś odznaczenia - bez względu czy misja zakończy się fiaskiem czy się powiedzie.
+      							</div>
+    						</div>
+  						</div>
+					</div>
+		
+					<section class="modal-btn">
+						<!-- Button trigger modal -->
+						<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#mortal">
+							<img src="http://www.stare-gry.cba.pl/amiga/mortal-kombat.jpg" title="MORTAL KOMBAT" class="img-responsive img-thumbnail">
+						</button>
+					</section>
+					<div class="modal fade" id="mortal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			 			<div class="modal-dialog" role="document">
+    						<div class="modal-content">
+      							<div class="modal-header">
+    					 			<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        							<h4 class="modal-title" id="myModalLabel">Mortal Kombat			</h4>
+      							</div>
+      							<div class="modal-body">
+    				  				<img src="http://www.stare-gry.cba.pl/amiga/mortal-kombat.jpg" title="MORTAL KOMBAT" class="img-responsive">
+    							</div>
+      							<div class="modal-footer">
+						Wśród bijatyk przez pewien czas rządził niepodzielnie Street Fighter... i wtedy pojawił się Mortal Kombat, który sporo zamieszał w tym gatunku. Gra przez wielu jest uznawana za kultową i jedną z najlepszych na Amigę. Oferuje spory wybór jeśli chodzi o zawodnika, a także ciosy. Każdy z uczestników turnieju Mortal Kombat ma unikalne ciosy dostępne tylko dla niego. Choć to dopiero druga część gry zrobiła prawdziwą furorę, to także w jedynkę warto zagrać, gdyż niewiele ustępuje sequelowi.
+      							</div>
+    						</div>
+  						</div>
+					</div>
+		
+					<section class="modal-btn">
+					<!-- Button trigger modal -->
+						<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#north">
+							<img src="http://www.stare-gry.cba.pl/amiga/north-and-south.jpg" title="NORTH & SOUTH" class="img-responsive img-thumbnail">
+						</button>
+					</section>		
+					<div class="modal fade" id="north" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			 			<div class="modal-dialog" role="document">
+    						<div class="modal-content">
+      							<div class="modal-header">
+    					 			<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+    					 			</button>
+        							<h4 class="modal-title" id="myModalLabel">North & South			</h4>
+      							</div>
+      							<div class="modal-body">
+    				 				<img src="http://www.stare-gry.cba.pl/amiga/north-and-south.jpg" title="NORTH & SOUTH" class="img-responsive">
+    							</div>
+      							<div class="modal-footer">
+						North & South to spojrzenie na wojnę secesyjną z przymrużeniem oka. Jest to gra strategiczna z elementami zręcznościówki. Stając po jednej ze stron konfliktu musisz całkowicie wyeliminować przeciwnika, aby wygrać wojnę. Gra oferuje cztery różne scenariusze w latach 1861-1864. Każdy z nich przedstawia inny fragment wojny, gdzie jedna lub druga strona miała przewagę. Bitwy to najciekawsza rzecz w każdej wojnie. W North&South bitwy mogą być toczone na trzech różnych terenach: nad rzeką, w górach lub na zwykłej polanie. Każda ze stron dysponuje trzema typami jednostek: piechota, jeźdźcy oraz armaty. Wygrasz jeśli zabijesz wszystkie jednostki wroga lub twój wróg ucieknie. Poszczególne oddziały wojska można łączyć w większe i silniejsze armie.
+								</div>
+    						</div>
+  						</div>
+					</div>
+		
+					<section class="modal-btn">
+					<!-- Button trigger modal -->
+						<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#pinball">
+							<img src="http://www.stare-gry.cba.pl/amiga/pinball-dreams.jpg" title="PINBALL DREAMS" class="img-responsive img-thumbnail">
+						</button>
+					</section>
+					<div class="modal fade" id="pinball" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			 			<div class="modal-dialog" role="document">
+    						<div class="modal-content">
+      							<div class="modal-header">
+    					 			<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+    					 			</button>
+        							<h4 class="modal-title" id="myModalLabel">Pinball Dreams</h4>
+      							</div>
+      							<div class="modal-body">
+    				  				<img src="http://www.stare-gry.cba.pl/amiga/pinball-dreams.jpg" title="PINBALL DREAMS" class="img-responsive">
+    							</div>
+      							<div class="modal-footer">
+							Pinball Dreams to pierwszy pinball wydany na Amigę. Sukces gry był tak duży, że jeszcze w tym samym roku wydano Pinball Fantasies. W PD dostępne są cztery stoły: Ignition, Steel Wheel(na screenie), Beat Box oraz Nightmare. Każdy z nich cechuje się sporą grywalnością pomimo tego, iż w porównaniu z nowszymi wersjami nie ma wielu wodotrysków. Stoły za to są przejrzyste i już po kilku chwilach można opanować rozłożenie wszystkich bonusów.
+      							</div>
+    						</div>
+  						</div>
+					</div>
+		
+					<section class="modal-btn">
+					<!-- Button trigger modal -->
+						<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#pp">
+							<img src="http://www.stare-gry.cba.pl/amiga/p-p-hammer-and-his-pneumatic-weapon.jpg" title="P.P. HAMMER" class="img-responsive img-thumbnail">	
+						</button>
+					</section>
+					<div class="modal fade" id="pp" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			 			<div class="modal-dialog" role="document">
+    						<div class="modal-content">
+      							<div class="modal-header">
+    					 			<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+    					 			</button>
+        							<h4 class="modal-title" id="myModalLabel">P. P. Hammer</h>
+      							</div>
+      							<div class="modal-body">
+    				  				<img src="http://www.stare-gry.cba.pl/amiga/p-p-hammer-and-his-pneumatic-weapon.jpg" title="P.P. HAMMER" class="img-responsive">
+    							</div>
+      							<div class="modal-footer">
+						P.P. Hammer jest kimś w rodzaju archeologa, ale narzędzia przez niego wykorzystywane wskazują raczej na profesję poszukiwacza skarbów. Tym narzędziem jest tytułowy młot pneumatyczny. W Każdym razie nasz bohater jest niezwykle zawzięty, gdyż nie opuści danej lokacji dopóki nie znajdzie wszystkich skarbów. Opuszczone zamki, podziemia, piramidy, labirynty, krypty - wszędzie tam gdzie jest szansa na znalezienie czegoś cennego, tam znajdzie się PP Hammer. Poszukiwacz skarbów po drodze rzeczy, które nie często występują w platformówkach. Dodatkowo można je wykorzystać w dowolnie wybranym przez siebie momencie, a nie w chwili podniesienia z ziemii. Na uwagę zasługuje również muzyka, która wpada w ucho i nie nudzi się po krótkim okresie czasu.
+      							</div>
+    						</div>
+  						</div>
+					</div>
+		
+					<section class="modal-btn">
+					<!-- Button trigger modal -->
+						<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#ruff">
+							<img src="http://www.stare-gry.cba.pl/amiga/ruff_n_tumble.jpg" title="RUFF'N'TUMBLE" class="img-responsive img-thumbnail">	
+						</button>
+					</section>
+					<div class="modal fade" id="ruff" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			 			<div class="modal-dialog" role="document">
+    						<div class="modal-content">
+      							<div class="modal-header">
+    					 			<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+    					 			</button>
+        							<h4 class="modal-title" id="myModalLabel">Ruff 'N' Tumble</h4>
+      							</div>
+      							<div class="modal-body">
+    				  				<img src="http://www.stare-gry.cba.pl/amiga/ruff_n_tumble.jpg" title="RUFF'N'TUMBLE" class="img-responsive">	
+    							</div>
+      							<div class="modal-footer">
+						Ruff 'n' Tumble to zręcznościowa gra platformowa. Główny bohater biega, skacze, pływa (zalane wodą jaskinie w drugim świecie) i strzela przez cztery pasjonujące etapy. Eksterminuje Tinheadowców przy pomocy naboi, lasera, miotacza ognia i rakiet. Aby ukończyć etap należy zebrać określoną ilość kulek (zielonych, niebieskich, czerwonych, a czasem można znaleźć też trzy specjalne kulki, które dają razem wszystkie wymagane kulki do ukończenia danego poziomu) i znaleźć wyjście (pokonać strażnika jeśli jest to ostatnia plansza w danym świecie).
+							Ruff potrafi strzelać na wprost siebie oraz pod kątem 45 stopni w dół i górę. Potrafi też używać kluczy do otwierania zamkniętych przejść, specjalnych trampolin do skakania wyżej, przełączników do odpalania detonatorów w kopalni i fabryce.
+      							</div>
+    						</div>
+  						</div>
+					</div>
+		
+					<section class="modal-btn">
+					<!-- Button trigger modal -->
+						<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#wings">
+							<img src="http://www.stare-gry.cba.pl/amiga/wings.jpg" title="WINGS" class="img-responsive img-thumbnail">		
+						</button>
+					</section>
+					<div class="modal fade" id="wings" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			 			<div class="modal-dialog" role="document">
+    						<div class="modal-content">
+      							<div class="modal-header">
+    					 			<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+    					 			</button>
+        							<h4 class="modal-title" id="myModalLabel">Wings</h4>
+      							</div>
+      							<div class="modal-body">
+    				  				<img src="http://www.stare-gry.cba.pl/amiga/wings.jpg" title="WINGS" class="img-responsive">
+    							</div>
+      							<div class="modal-footer">
+						W grze Wings! wcielamy się w postać pilota myśliwca, który po stronie Niemców bądź państw Ententy uczestniczy w działaniach wojennych, rozgrywających się w trakcie I wojny światowej. Twórcy gry przygotowali ponad 200 misji, wypełnionych akcją i wrogimi maszynami latającymi, a do naszych zadań należy m.in. bombardowanie strategicznych miejsc, ostrzeliwanie wrogich konwojów, zbieranie ważnych informacji, a także klasyczne pojedynki powietrzne jeden na jednego. Całość nie aspiruje jednak do miana poważnego symulatora i ma charakter czysto zręcznościowy. Podczas zabawy mamy do wyboru dwie perspektywy. W widoku izometrycznym możemy oglądać z zewnątrz nasz samolot oraz najbliższe otoczenie. Drugą opcję stanowi stwarzająca pozory przestrzenności kamera umiejscowiona bezpośrednio za pilotem.
+      							</div>
+    						</div>
+  						</div>
+					</div>
+		
+					<section class="modal-btn">
+					<!-- Button trigger modal -->
+						<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#swos">
+							<img src="http://www.stare-gry.cba.pl/amiga/sensible_world_of_soccer.jpg" title="SENSIBLE WORLD OF SOCCER" class="img-responsive img-thumbnail">			
+						</button>
+					</section>
+					<div class="modal fade" id="swos" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			 			<div class="modal-dialog" role="document">
+    						<div class="modal-content">
+      							<div class="modal-header">
+    					 			<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+    					 			</button>
+        							<h4 class="modal-title" id="myModalLabel">Sensible World of Soccer</h4>
+      							</div>
+      							<div class="modal-body">
+    				  				<img src="http://www.stare-gry.cba.pl/amiga/sensible_world_of_soccer.jpg" title="SENSIBLE WORLD OF SOCCER" class="img-responsive">
+    							</div>
+      							<div class="modal-footer">
+						Sensible World od Soccer, to upelszona wersja Sensible Soccer, najlepszej i najpopularniejszej piłki nożnej na Amigę. Nieklejąca się przy nodze piłka oraz prosta grafika, to charakterystyczne cechy tej gry. W porównaniu z wersją 1.1 zamieszczoną w serwisie gra zrobiła znaczne postępy. Składy zostały zaktualizowane (przynajmniej częściowo), dodano drużyny klubowe i narodowe z Europy, obu Ameryk, Azji, Afryki, a nawem Australii i Oceanii. Oprócz naprawdę dużego wyboru drużyn gra oferuje tryb kariery, gdzie wybrawszy jedną drużynę będziemy piąć się po szczeblach kariery trenera, by ostatecznie sięgnąć po puchar świata. Jakby tego było mało, dostępny jest edytor, gdzie można od podstaw zbudować własną ligę, turniej czy inne mistrzostwa.
+      							</div>
+    						</div>
+  						</div>
+					</div>
+					
+					<section class="modal-btn">
+					<!-- Button trigger modal -->
+						<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#franko">
+							<img src="http://www.stare-gry.cba.pl/amiga/franko-the-crazy-revenge.jpg" title="FRANKO" class="img-responsive img-thumbnail">		
+						</button>
+					</section>
+					<div class="modal fade" id="franko" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			 			<div class="modal-dialog" role="document">
+    						<div class="modal-content">
+      							<div class="modal-header">
+    					 			<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+    					 			</button>
+        							<h4 class="modal-title" id="myModalLabel">Franko The Crazy Revenge</h4>
+      							</div>
+      							<div class="modal-body">
+    				  				<img src="http://www.stare-gry.cba.pl/amiga/franko-the-crazy-revenge.jpg" title="FRANKO" class="img-responsive"></div>
+      								<div class="modal-footer">
+						Jest rok 1987. Szczecin. Dwie ooby weszły na teren, gdzie raczej wchodzić nie powinny. Krótka i treściwa fabuła :) Gdy Franko - The Crazy Revenge, bo taki jest pełny tytuł tej gry, się ukazał uważany był za grę zbyt brutalną i wulgarną. Gra jednak przetrwała i zyskała na popularności. Przed rozgrywką wybieramy jednego z dwóch bohaterów, którym będziemy kierować przechodząc przez miasto. Wybór ma pewne znaczenie, gdyż każdy z bohaterów ma nieco odmienny zestaw ciosów. Już w samej grze mamy do wyboru całkiem spory wybór ciosów. Ponadto w grze są nie najgorsze animacje oraz całkiem ładnie zrobione otoczenie na którym toczy się akcja.
+    							</div>
+  							</div>
+						</div>
+					</div>
+					
+					<section class="modal-btn">
+					<!-- Button trigger modal -->
+						<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#tanks">
+							<img src="http://www.gimpuj.info/gallery/97/62250_12_05_16_6_18_50.png" title="TANKS FURRY" class="img-responsive img-thumbnail">		
+						</button>
+					</section>
+					<div class="modal fade" id="tanks" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			 			<div class="modal-dialog" role="document">
+    						<div class="modal-content">
+      							<div class="modal-header">
+    					 			<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+    					 			</button>
+        							<h4 class="modal-title" id="myModalLabel">Tanks Furry</h4>
+      							</div>
+      							<div class="modal-body">
+    				  				<img src="http://www.gimpuj.info/gallery/97/62250_12_05_16_6_18_50.png" title="TANKS FURRY" class="img-responsive"></div>
+      							<div class="modal-footer">
+      							Nowa gra polskiej grupy Project R3D.
+						Tanks Furry to bardzo ładnie wykonana strzelanka 2d w której zasiadamy za sterami czołgu. Zadaniem gracza jest wyeliminowanie wszystkich napotkanych na ekranie wrogich czołgów zarazem broniąc własnej bazy przed zniszczeniem. Demo gry zostało zaprezentowane na ostatniej imprezie RetroKomp i trzeba przyznać, że prezentuje się wyśmienicie.
+      							</div>
+    						</div>
+  						</div>
+					</div>
+				</div>
+		</section>
+		
+		<section class="footer">
+		<a name="footer"></a>
+			<div class="row container">
+				<div class="copyrights col-lg-4">
+					<h3 class="text-capitalize">all rights reserved</h3>
+				</div>
+				<div class="name col-lg-4">
+					<h3>Anonim</h3>
+				</div>
+				<div class="contact col-lg-4">
+					<div class="mail col-lg-4">
+						<h4>email:</h4>
+					</div>
+					<div class="mail col-lg-8">
+						<h4>example@example.com</h4>
+					</div>
+				</div>
+			</div>
+		</section>
+	</body>
+</html>

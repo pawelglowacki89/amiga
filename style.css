@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P|VT323')
+* {
+	box-sizing: border-box;
+}
+
+.navbar {
+	margin: 0;
+	border-radius: 0;
+	border: 0;
+}
+
+
+body {
+	background: #0055AA;
+}
+
+.history, .copyrights, .name, .contact, .mail h3, .games col-lg-3, .games, .gallery, .footer, .footer .row {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	flex-wrap: wrap;
+}
+
+.history p, h1, .games h3, .games a, .gallery h1 {
+	color: white;	
+}
+
+.games img {
+	width: 100%;
+}
+
+.games img:hover {
+	transform: scale(1.10);
+	transition: 0.3s;
+}
+
+h1 {
+	font-size: 50px;
+	font-weight: bolder;
+}
+
+p, h1, h2, h3, h4, a {
+	font-family: 'VT323', monospace;
+}
+
+.footer {
+	padding-bottom: 10px;
+}
+
+.navbar .navbar-header .row ul {
+	padding-left: 10px;
+}
+
+.footer, .navbar, .navbar .navbar-header a, .navbar .navbar-header .row ul li a {
+	background-color: white;
+	color: #0055AA;
+	font-weight: bolder;
+}
+
+.footer h4 {
+	margin: 20px 0 10px 0;	
+}
+
+.gallery img:hover {
+	transform: scale(1.1);
+	transition: 0.5s;
+}
+
+.gallery img {
+	width: 330px;
+	height: 270px;
+}
+
+.footer .row .container {
+	margin: 0;	
+}
+
+.modal-btn {
+	display: flex;
+	justify-content: center;
+}
+
+.carousel-inner .item img {
+	max-height: 642px;	
+}
+
+.history .container {
+	display: block;	
+}
+
+div > div > div.modal-body{
+	display: flex;
+	justify-content: center;
+}
+
+div > div > div.modal-body img:hover{
+	transform: none;
+	transition: none;
+}
+
+div > div > div.modal-footer {
+	text-align: center;	
+}
+
+.gallery .container .modal-btn button {
+	padding: 0;	
+}
+
+.gallery .container {
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: center;	
+}
+
+@media (max-width: 767px) {
+
+nav .navbar-header, .navbar{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.navbar .navbar-header .row ul {
+	padding-left: 0;	
+}
+
+.carousel-inner .item img {
+	max-height: 230px;	
+}
+
+.history {
+	display: flex;
+	flex-direction: column;
+}
+
+}
+
+@media (max-width: 1199px) {
+.footer .row {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+}
